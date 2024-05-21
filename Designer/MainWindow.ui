@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1122</width>
+    <height>738</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>1</number>
+    </property>
+    <property name="leftMargin">
+     <number>2</number>
+    </property>
+    <property name="topMargin">
+     <number>2</number>
+    </property>
+    <property name="rightMargin">
+     <number>2</number>
+    </property>
+    <property name="bottomMargin">
+     <number>2</number>
+    </property>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="3,2,3">
+        <property name="leftMargin">
+         <number>80</number>
+        </property>
+        <property name="topMargin">
+         <number>5</number>
+        </property>
+        <property name="rightMargin">
+         <number>80</number>
+        </property>
+        <property name="bottomMargin">
+         <number>10</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="font">
+           <font>
+            <family>楷体</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>2</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>黑体</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>      请输入股票代码</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="placeholderText">
+           <string>请输入股票代码</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>历史行情</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <item>
+               <widget class="QLabel" name="label_3">
+                <property name="text">
+                 <string>时间范围：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDateEdit" name="startDateEdit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>2</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="dateTime">
+                 <datetime>
+                  <hour>0</hour>
+                  <minute>0</minute>
+                  <second>0</second>
+                  <year>2022</year>
+                  <month>1</month>
+                  <day>1</day>
+                 </datetime>
+                </property>
+                <property name="displayFormat">
+                 <string>yyyy-M-d</string>
+                </property>
+                <property name="date">
+                 <date>
+                  <year>2022</year>
+                  <month>1</month>
+                  <day>1</day>
+                 </date>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_2">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>1</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QDateEdit" name="endDateEdit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>2</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="dateTime">
+                 <datetime>
+                  <hour>0</hour>
+                  <minute>0</minute>
+                  <second>0</second>
+                  <year>2022</year>
+                  <month>1</month>
+                  <day>2</day>
+                 </datetime>
+                </property>
+                <property name="displayFormat">
+                 <string>yyyy-M-d</string>
+                </property>
+                <property name="date">
+                 <date>
+                  <year>2022</year>
+                  <month>1</month>
+                  <day>2</day>
+                 </date>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="getHistoryInfoButton">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>获取</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <widget class="QTextBrowser" name="historyInfoBrowser">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>1</verstretch>
+               </sizepolicy>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>价格预测</string>
+         </attribute>
+         <widget class="PlotWidget" name="PredictionPlot" native="true">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>79</y>
+            <width>1109</width>
+            <height>561</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QWidget" name="">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>1</y>
+            <width>1091</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="7,1">
+           <item>
+            <widget class="QLabel" name="label_prediction">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="PredictionButton">
+             <property name="text">
+              <string>预测结果</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>更新股票代码</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PlotWidget</class>
+   <extends>QWidget</extends>
+   <header>pyqtgraph</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
