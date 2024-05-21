@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="StockPrediction" uuid="43253745-e570-4f28-8289-17b0c6569468">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:E:\Graduation Project\Designer\db\StockPrediction.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="StockPrediction [2]" uuid="e5dd9435-d6aa-4eab-afc9-b9dfa12829ec">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:E:\Graduation Project\db\StockPrediction.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
