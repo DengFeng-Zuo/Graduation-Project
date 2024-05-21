@@ -4,9 +4,9 @@ from aip import AipNlp
 def bd_analysis(line):
     global positive_prob
     """ 你的 APPID AK SK """
-    APP_ID = '25906921'
-    API_KEY = 'Gjd8Ve2djgef9rLtKnxjDjWM'
-    SECRET_KEY = 'Ypc9ayMZ8sCmZciXUahba4ng5gP9wytp'
+    APP_ID = ''
+    API_KEY = ''
+    SECRET_KEY = ''
 
     client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
     #对非空字符串进行情感分析
